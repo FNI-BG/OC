@@ -1,0 +1,26 @@
+/* 초기화 및 기본 세팅 */
+*{margin: 0; padding: 0;}
+a{color: aliceblue; text-decoration: none;}
+body{background-image: url('img/background.png'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
+li{list-style: none;}
+p, li, tr, td, h2{color: aliceblue;}
+#all{width: 1024px; margin: 0 auto;}
+
+/* header */
+#header h2{margin: 0 auto; float: right; font-size: 60px; margin: 20px 30px 0 0; color: rgb(183, 170, 194);}
+#header{height: 250px; transition: all 1s;}
+
+/* index */
+#index ul{background-color: rgb(53, 30, 63); width: 100%;}
+#index ul li{transition: all 1s; color: rgb(174, 147, 187); float: left; width: 20%; height: 30px; padding: 12px 0 8px 0; text-align: center; background-color: rgb(53, 30, 63); border: none; font-weight: bold;}
+#index ul li:hover{background-color: rgb(119, 31, 83);}
+
+/* menu */
+#menu ul{margin-top: 50px;}
+#menu ul li{display: block; width: 250px; float: left; margin: 20px 2px;}
+#menu ul li span{display: block; text-align: center;}
+#menu ul li span img{margin: auto;}
+
+/* footer */
+#footer{float: left; margin-top: 80px; margin-bottom: 30px; width: 100%; text-align: center;}
+#footer p{color: #674E7E;}
